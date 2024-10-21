@@ -29,4 +29,5 @@ Route::middleware('auth')->group(function () {
     Route::resource('participaciones', ParticipacionController::class);
 });
 
-require _DIR_.'/auth.php';
+// Asegúrate de que esta línea esté correcta
+require __DIR__.'/auth.php';

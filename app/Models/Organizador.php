@@ -9,6 +9,8 @@ class Organizador extends Model
 {
     use HasFactory;
 
+    protected $table = 'organizadores'; // Añade esta línea
+
     protected $fillable = ['nombre', 'apellido', 'email', 'telefono'];
 
     public function eventos()

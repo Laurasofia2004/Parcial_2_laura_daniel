@@ -66,5 +66,5 @@ class OrganizadorController extends Controller
         $organizador->delete();
 
         return redirect()->route('organizadores.index')->with('success', 'Organizador eliminado con éxito');
-    }
+    }
 }

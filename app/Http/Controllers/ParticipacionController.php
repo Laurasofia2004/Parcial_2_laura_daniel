@@ -57,5 +57,5 @@ class ParticipacionController extends Controller
     {
         $participacion->delete();
         return redirect()->route('participaciones.index')->with('success', 'Participación eliminada exitosamente.');
-    }
+    }
 }
